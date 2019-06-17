@@ -1,0 +1,56 @@
+
+.picture{
+    width: calc(100% /2 - 10px);
+    margin-right: 10px;
+}
+.pictureR{
+    width: calc(100% /2 - 10px);
+    margin-left: 10px;
+}
+.content{
+    width: calc(100% /2 - 50px);
+    margin-left: 50px;
+     padding-top: 40px;
+   h3, h4 {
+       color: $mainTwo;
+       padding-bottom: 10px;
+   }
+}
+.contentL{
+    width: calc(100% /2 - 50px);
+    margin-left: 50px;
+     padding-top: 40px;
+   h3, h4 {
+       color: $main;
+       padding-bottom: 10px;
+   }
+}
+.computer{
+    width: 100%;
+}
+.portfolio{
+    display: flex;
+    height: 80vh;;
+}
+
+
+.right button{
+    background: $accent;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color:$text;
+    margin: 30px;
+}
+.right button:hover{
+    background: $tiles;
+}
+.left button{
+    background: $mainTwo;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color:$accent;
+    margin: 30px;
+}
+.left button:hover{
+    background:$tiles;
+}

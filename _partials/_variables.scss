@@ -1,0 +1,62 @@
+    $main: #23d5cb;
+	$mainTwo: #fa4978;
+	$tiles:#c9e5ab;
+    $border:#f8d983;
+    $accent:#8ad443;
+    $text: #453273; 
+    $label: #B4AAC5;
+
+html{
+    padding: 0;
+    margin: 0;
+    font-size: 125%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, p, a, li, button {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+a{
+    text-decoration: none;
+}
+h3{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+h4{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+p{
+    font-weight: 200;
+    color: $text;
+    font-size: 1rem;
+
+}
+.wrapper {
+    width: 1280px;
+    max-width: 80%;
+    margin: 0 auto;
+    min-width: 320px;
+}
+h2{
+     font-family: 'Roboto', sans-serif;
+     padding: 0;
+    margin: 0;
+}
+.intro {
+   font-family: 'Roboto', sans-serif;
+    font-size: 9rem;
+    text-transform: uppercase;
+    color: rgba(180, 170, 197,0.3);
+    text-align: right;
+}
+.introL {
+    text-align: left;
+}
