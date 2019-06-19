@@ -1,7 +1,7 @@
-// header {
-//      position: relative;
-// }
 
+header{
+    overflow: hidden;
+}
 .topLeft{
     height: 35vh;
     background-color: $main;
@@ -115,25 +115,18 @@
 .title{
     position: absolute;
     overflow: hidden;
-    top: 70%;
+    top: 65%;
     left: 55%;
     animation: show 2s ease forwards 3.2s;
+    text-transform: uppercase;
+    color: $accent;
+    display: none;
 }
+
 
 @keyframes line-anim {
     to{
         stroke-dashoffset: 0;
     }
 }
-@keyframes fill {
-    
-    to{
-        fill: plum;
-    }
-}
-@keyframes show{
-    
-    to{
-        display: block;
-    }
-}
+

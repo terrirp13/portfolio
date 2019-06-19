@@ -1,5 +1,134 @@
+@media (max-width: 1380px){
+    button{
+        padding: 0;
+    }
+}
+
 @media (max-width: 1200px){
     .name{
         width: 80%;
+        top: 40%;
     }
+    h3{
+        font-size: 1.8rem;
+    }
+    .portfolio, .portfolioR{
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+    .picture, .pictureR, .content, .contentL{
+        width: 80%;
+    }
+    button{
+        display: inline-block;
+       margin: 30px auto;
+    }
+    .content p, .contentL p {
+        width: 90%;
+    }
+    .title{
+        top: 90%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+    }
+}
+@media (max-width: 1000px){
+    .menu ul{
+        width: 100%;
+    }
+    .intro{
+       font-size: 6rem;
+    }
+    h3{
+        font-size: 1.5em;
+        
+    }
+    .title{
+        top: 75%;
+         left: 50%;
+    }
+    footer h3{
+        font-size: 1.6rem;
+        padding-top: 10px;
+    }
+    a {
+        padding: 10px 15px;
+    }
+    .iconContainer {
+    width: calc(100% /3 - 40px);
+    }
+}
+@media (max-width: 750px){
+    .intro{
+        font-size: 4rem;
+    }
+    .aboutMe p{
+        font-size: .8rem;
+        line-height: 20px;
+        padding-top: 20px;
+    }
+    .content , .contentL  {
+        width: 70%;
+    }
+    .content p, .contentL p{
+        font-size: .7rem;
+    }
+    button{
+        font-size: .8rem;
+    }
+    h4{
+        font-size: .8rem;
+    }
+    footer h3{
+        font-size: 1.2rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+    .title{
+        width: 100%;
+        left: 73%;
+    }
+    .jquery p{
+        position: absolute;
+        bottom: 0;
+    }
+    p{
+        font-size: .8rem;
+    }
+    .hamburger {
+        right: 10%; 
+       
+    }
+   .menu, .menu ul {
+        overflow: hidden;
+   }
+    
+}
+@media (max-width: 600px){
+
+    .icon{
+        width: 60%;
+    }
+    .title{
+        left: 63%;
+    }
+    .intro{
+        font-size: 2.5rem;
+    }
+    footer h4 {
+        font-size: .5rem;
+    }
+    footer h3{
+        font-size: .9rem;
+    }
+  
+}
+@media (max-width: 450px){
+
+    .iconContainer p{
+        font-size: .3rem;
+    } 
+    
 }

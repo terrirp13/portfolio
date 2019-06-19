@@ -2,15 +2,18 @@
 .picture{
     width: calc(100% /2 - 10px);
     margin-right: 10px;
+    overflow: hidden;
 }
 .pictureR{
     width: calc(100% /2 - 10px);
     margin-left: 10px;
+    overflow: hidden;
 }
 .content{
     width: calc(100% /2 - 50px);
     margin-left: 50px;
      padding-top: 40px;
+     overflow: hidden;
    h3, h4 {
        color: $mainTwo;
        padding-bottom: 10px;
@@ -20,6 +23,7 @@
     width: calc(100% /2 - 50px);
     margin-left: 50px;
      padding-top: 40px;
+     overflow: hidden;
    h3, h4 {
        color: $main;
        padding-bottom: 10px;
@@ -30,27 +34,33 @@
 }
 .portfolio{
     display: flex;
+    height: 80vh;
+    
+}
+.portfolioR{
+    display: flex;
+    flex-direction: row-reverse;
     height: 80vh;;
 }
-
-
+button{
+    border: none;
+    padding: 5px 20px;
+     border-radius: 20px;
+      margin: 30px;
+}
 .right button{
     background: $accent;
-    padding: 5px 20px;
-    border-radius: 20px;
     color:$text;
-    margin: 30px;
+   
 }
-.right button:hover{
+.right button:hover, .right button:focus, .right button:active{
     background: $tiles;
 }
 .left button{
     background: $mainTwo;
-    padding: 5px 20px;
-    border-radius: 20px;
     color:$accent;
-    margin: 30px;
+   
 }
-.left button:hover{
+.left button:hover, .left button:focus, .left button:active{
     background:$tiles;
 }

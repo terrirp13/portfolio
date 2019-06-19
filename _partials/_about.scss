@@ -18,10 +18,13 @@
     background-color: rgba(69, 50, 115,0.9);
 }
 .aboutMe p{
-    color: $tiles;
+    color: $label;
     text-align: justify;
     line-height: 30px;  
     margin-left: 20px;
+}
+.aboutMe h3{
+    color: $label;
 }
 .aboutMe img{
     width: 25%;

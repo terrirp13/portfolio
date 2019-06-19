@@ -1,0 +1,43 @@
+footer h4{
+    text-transform: uppercase;
+    color: white;
+    font-size: .9rem;
+    text-align: center;
+}
+.copyright{
+    background: $mainTwo;
+    padding: 80px;
+    box-shadow: 0px, -16px, 9px, -6px rgba(69, 50, 115, 0.8);
+   
+}
+.social{
+    display: flex;
+    justify-content: center;
+    a:hover,  a:focus,  a:active {
+           color:$accent;
+       }
+}
+.fab{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.contact {
+    background: $text;
+    padding: 10px;
+}
+.email {
+    display: block;
+    margin: 0 auto;
+}
+footer p {
+    color: $main;
+     text-align: center;
+}
+footer h3{
+    font-size: 2rem;
+    font-weight: 300;
+    color: $main;
+    text-align: center;
+    margin-bottom: 20px;
+}

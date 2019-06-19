@@ -1,28 +1,66 @@
-.sideNav{
-    position: fixed;
-    right: -200px;
-    background: $label;
-    height: 100vh;
-    width:200px;
-    transition: all 500ms linear;
-    z-index: 10;
-}
-.sideNav.active {
-    right : 0;
-}
-.sideNav ul li {
-    list-style: none;
-    padding: 20px 30px;
-    border-bottom: 1px solid #ddd;
-}
-.sideNav .btn {
-    position: absolute;
-    right: 230px;
-    top: 20px;
-}
-.btn{
-    background: none;
-    border: none;
-}
 
-// background: #B4AAC5;
+    li{
+        text-decoration: none;
+        list-style: none;
+        border-bottom: 1px solid grey;
+    }
+    li:first-child, li:last-child{
+        border-bottom: none;
+    }
+
+    a {
+        display: block;
+        padding: 15px 25px;
+        color: white;
+        transition: color 1s ease;
+    }
+    a:hover,  a:focus,  a:active {
+        color: $mainTwo;
+    }
+    .show.menu {
+        display: block;
+    }
+    .hamburger {
+		display: block;
+        font-size: 25px;
+        position: fixed;
+        z-index: 5;
+        right: 10%;
+        top: 5%;
+    }
+    .exit-responsive {
+        display: block;
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+	.menu {
+		display: none;
+		position: absolute;
+		top: 0;
+		right: 0;
+        color: white;
+        transition: .10s;
+       
+	}
+	.menu ul {
+        background: $label;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        border-radius: 20px; 
+        z-index: 10;
+        height: 100vh;
+         position: fixed;
+        top: 0;
+        right: 0;
+        width: 250px;
+        
+	}
+	.menu ul a {
+		text-align: center;
+        padding: 30px;
+       
+	}
+
