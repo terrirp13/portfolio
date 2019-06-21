@@ -1,6 +1,6 @@
 @media (max-width: 1380px){
     button{
-        padding: 0;
+        padding: 7px;
     }
 }
 
@@ -32,11 +32,12 @@
          left: 50%;
          transform: translate(-50%, -50%);
     }
+     .ham-menu {
+        left: 75px;
+    }
 }
 @media (max-width: 1000px){
-    .menu ul{
-        width: 100%;
-    }
+    
     .intro{
        font-size: 6rem;
     }
@@ -58,6 +59,11 @@
     .iconContainer {
     width: calc(100% /3 - 40px);
     }
+    .ham-menu ul li a {
+        font-size: .5rem;
+        padding-left: 7px;
+    }
+   
 }
 @media (max-width: 750px){
     .intro{
@@ -97,13 +103,9 @@
     p{
         font-size: .8rem;
     }
-    .hamburger {
-        right: 10%; 
-       
+     .ham-menu {
+        left: 55px;
     }
-   .menu, .menu ul {
-        overflow: hidden;
-   }
     
 }
 @media (max-width: 600px){
@@ -123,6 +125,17 @@
     footer h3{
         font-size: .9rem;
     }
+    .ham-menu ul{
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-110%);
+    }
+    .ham-menu ul li:first-child{
+        padding-top: 20px;
+    }
+     button{
+        padding: 7px 2px;
+    }
   
 }
 @media (max-width: 450px){
@@ -130,5 +143,17 @@
     .iconContainer p{
         font-size: .3rem;
     } 
-    
+    a{
+        font-size: .7rem;
+    }
+   
+}
+@media (max-width: 400px){
+
+    .title{
+        width: 70%;;
+    } 
+    h3{
+        font-size: 1rem;
+    }
 }

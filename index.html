@@ -15,19 +15,19 @@
 <body>
 <header>
     <div class="top">
-                <div class="container">
-                    <p class="hamburger"><img src="./assets/menu.svg" alt="menu"></p>
-                    <div class="menu">
-                        <ul>
-                            <li class="exit-responsive"><i class="fas fa-times"></i></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#about">About Me</a></li>
-                             <li><a href="#skills">Skills</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
+             
+                <button id="hamburger-menu" data-toggle="ham-navigation" class="hamburger-menu-button"><span
+                        class="hamburger-menu-button-open">Menu</span></button>
+                <nav id="ham-navigation" class="ham-menu">
+                    <ul class="menu">
+                        <li><a href="#">Home</a></li>
+                        <li class="active"><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                       
+                    </ul>
+                </nav>
 
         <div class="topLeft"></div>
         <div class="topRight"></div>
@@ -130,7 +130,6 @@
                     <button><a href="https://github.com/makeupbar/makeupBar">GitHub</a></button>
                 </div>
             </div>
-            
         </section>
 
 
@@ -161,7 +160,6 @@
                     <button><a href="https://github.com/terrirp13/terriPersadProjectOne">GitHub</a></button>
                 </div>
             </div>
-           
         </section>
     
     </div>
@@ -251,17 +249,20 @@
        
        <a href="mailto:terri.persad@gmail.com"><img class="email" src="./assets/email.svg" alt="email"></a> 
     </div>
-    <div class="copyright">
-        <div class="social">
-           
-            <a href="https://twitter.com/terri_codes" aria-label="visit social platform, Twitter">
-                <i aria-hidden="true" class="fab fa-twitter" title="Twitter"></i></a>
-            <a href="https://github.com/terrirp13" aria-label="view Terri Persad's GitHub">
-                <i aria-hidden="true" class="fab fa-github" title="GitHub"></i></a>
-                <a href="linkedin.com/in/terripersad" aria-label="Terri Persad's LinkedIn">
-                    <i aria-hidden="true" class="fab fa-linkedin-in" title="LinkedIn"></i></a>
+    <div class="copyright ">
+        <div class="wrapper">
+
+            <div class="social">
+               
+                <a href="https://twitter.com/terri_codes" aria-label="visit social platform, Twitter">
+                    <i aria-hidden="true" class="fab fa-twitter" title="Twitter"></i></a>
+                <a href="https://github.com/terrirp13" aria-label="view Terri Persad's GitHub">
+                    <i aria-hidden="true" class="fab fa-github" title="GitHub"></i></a>
+                    <a href="linkedin.com/in/terripersad" aria-label="Terri Persad's LinkedIn">
+                        <i aria-hidden="true" class="fab fa-linkedin-in" title="LinkedIn"></i></a>
+            </div>
+            <h4>copyright 2019 all rights reserved</h4>
         </div>
-        <h4>copyright 2019 all rights reserved</h4>
     </div>
 </footer>
 <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
